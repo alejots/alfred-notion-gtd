@@ -1,0 +1,15 @@
+{
+  "name": "alfred-notion-gtd",
+  "version": "1.0.0",
+  "description": "Alfred workflow to add tasks to my GTD system in Notion",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "No test command"
+  },
+  "author": "Alejandro Tunaroza",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "alfy": "^1.0.0"
+  }
+}
