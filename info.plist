@@ -25,7 +25,32 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>408A71AC-4ED7-478C-B77D-B0BA97216EE8</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F858B888-8A2D-4A74-844A-D84A1B502E20</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -38,7 +63,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>71C6419D-D516-4F02-B986-C0F83AA45353</string>
+				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -49,6 +74,16 @@
 		</array>
 		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>6DAC9CC6-6397-445A-BF03-8B198B92179F</string>
@@ -74,6 +109,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>soundname</key>
 				<string>Blow</string>
 				<key>systemsound</key>
@@ -83,6 +137,27 @@
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>gg</string>
+				<key>subtext</key>
+				<string>Add GTD task to the system</string>
+				<key>text</key>
+				<string>GTD - Add task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E7B6951B-3BCC-460F-B415-F2233FA6D77C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -112,36 +187,53 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>gg</string>
-				<key>subtext</key>
-				<string>Add GTD task to the system</string>
-				<key>text</key>
-				<string>GTD - Add task</string>
-				<key>withspace</key>
-				<true/>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string>created</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>408A71AC-4ED7-478C-B77D-B0BA97216EE8</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>E7B6951B-3BCC-460F-B415-F2233FA6D77C</string>
+			<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>soundname</key>
-				<string>Blow</string>
-				<key>systemsound</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ggr</string>
+				<key>subtext</key>
+				<string>Add GTD Read/Review task to the system</string>
+				<key>text</key>
+				<string>GTD - Add Read/Review task</string>
+				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>71C6419D-D516-4F02-B986-C0F83AA45353</string>
+			<string>62D6448C-026A-41FF-B32E-82CBAB63C6FE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -171,21 +263,15 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>ggr</string>
-				<key>subtext</key>
-				<string>Add GTD Read/Review task to the system</string>
-				<key>text</key>
-				<string>GTD - Add Read/Review task</string>
-				<key>withspace</key>
+				<key>soundname</key>
+				<string>Tink</string>
+				<key>systemsound</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
-			<string>62D6448C-026A-41FF-B32E-82CBAB63C6FE</string>
+			<string>F858B888-8A2D-4A74-844A-D84A1B502E20</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -194,6 +280,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</key>
+		<dict>
+			<key>xpos</key>
+			<real>380</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<dict>
 			<key>xpos</key>
@@ -208,26 +301,26 @@
 			<key>ypos</key>
 			<real>175</real>
 		</dict>
-		<key>71C6419D-D516-4F02-B986-C0F83AA45353</key>
+		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
 		<dict>
 			<key>xpos</key>
-			<real>580</real>
+			<real>670</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>245</real>
 		</dict>
 		<key>CCD83C18-8025-411D-BAED-E83C510DCC32</key>
 		<dict>
 			<key>xpos</key>
-			<real>385</real>
+			<real>380</real>
 			<key>ypos</key>
 			<real>310</real>
 		</dict>
 		<key>DFB73194-135C-4D1D-B987-5920ACC900BD</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>840</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>125</real>
 		</dict>
 		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
 		<dict>
@@ -235,6 +328,13 @@
 			<real>175</real>
 			<key>ypos</key>
 			<real>175</real>
+		</dict>
+		<key>F858B888-8A2D-4A74-844A-D84A1B502E20</key>
+		<dict>
+			<key>xpos</key>
+			<real>840</real>
+			<key>ypos</key>
+			<real>315</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
