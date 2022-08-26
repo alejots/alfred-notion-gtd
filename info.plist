@@ -8,11 +8,37 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCD83C18-8025-411D-BAED-E83C510DCC32</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6DAC9CC6-6397-445A-BF03-8B198B92179F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CCD83C18-8025-411D-BAED-E83C510DCC32</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>71C6419D-D516-4F02-B986-C0F83AA45353</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -104,31 +130,111 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Blow</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>71C6419D-D516-4F02-B986-C0F83AA45353</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node ./src/addReadTask.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CCD83C18-8025-411D-BAED-E83C510DCC32</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ggr</string>
+				<key>subtext</key>
+				<string>Add GTD Read/Review task to the system</string>
+				<key>text</key>
+				<string>GTD - Add Read/Review task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>62D6448C-026A-41FF-B32E-82CBAB63C6FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
+		<dict>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
 		<key>6DAC9CC6-6397-445A-BF03-8B198B92179F</key>
 		<dict>
 			<key>xpos</key>
-			<real>460</real>
+			<real>380</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>175</real>
+		</dict>
+		<key>71C6419D-D516-4F02-B986-C0F83AA45353</key>
+		<dict>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>CCD83C18-8025-411D-BAED-E83C510DCC32</key>
+		<dict>
+			<key>xpos</key>
+			<real>385</real>
+			<key>ypos</key>
+			<real>310</real>
 		</dict>
 		<key>DFB73194-135C-4D1D-B987-5920ACC900BD</key>
 		<dict>
 			<key>xpos</key>
-			<real>655</real>
+			<real>575</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>175</real>
 		</dict>
 		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
 		<dict>
 			<key>xpos</key>
-			<real>265</real>
+			<real>175</real>
 			<key>ypos</key>
-			<real>200</real>
+			<real>175</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
