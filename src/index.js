@@ -1,5 +1,5 @@
 import alfy from "alfy";
 
-const token = process.env.token;
+import env from "./env.json" assert { type: "json" };
 
-console.log(token);
+console.log(env.tokenTest);

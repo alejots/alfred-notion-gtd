@@ -4,6 +4,8 @@
   "description": "Alfred workflow to add tasks to my GTD system in Notion",
   "main": "./src/index.js",
   "scripts": {
+    "postinstall": "yarn add-env",
+    "add-env": "cp -n env.json.example env.json || true",
     "test": "No test command"
   },
   "author": "Alejandro Tunaroza",
