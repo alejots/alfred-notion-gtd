@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "postinstall": "yarn add-env",
-    "add-env": "cp -n env.json.example env.json || true",
+    "add-env": "cp -n config.json.example config.json || true",
     "test": "No test command"
   },
   "author": "Alejandro Tunaroza",
