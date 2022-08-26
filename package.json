@@ -12,6 +12,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@notionhq/client": "^2.1.1",
     "alfy": "^1.0.0"
   }
 }
