@@ -8,6 +8,8 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>3856F499-EE3A-43C0-9092-AC674E798FE8</key>
+		<array/>
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<array>
 			<dict>
@@ -100,6 +102,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>BE74533B-8CAE-4614-AB64-7DC7C637F257</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -401,6 +413,23 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>-1</integer>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>shortcut</key>
+				<string>Set Work Focus mode</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -412,6 +441,13 @@
 			<real>385</real>
 			<key>ypos</key>
 			<real>15</real>
+		</dict>
+		<key>3856F499-EE3A-43C0-9092-AC674E798FE8</key>
+		<dict>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>710</real>
 		</dict>
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<dict>
@@ -444,14 +480,14 @@
 		<key>BE74533B-8CAE-4614-AB64-7DC7C637F257</key>
 		<dict>
 			<key>xpos</key>
-			<real>385</real>
+			<real>255</real>
 			<key>ypos</key>
 			<real>590</real>
 		</dict>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<dict>
 			<key>xpos</key>
-			<real>180</real>
+			<real>50</real>
 			<key>ypos</key>
 			<real>590</real>
 		</dict>
