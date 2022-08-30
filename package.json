@@ -4,9 +4,11 @@
   "description": "Alfred workflow to add tasks to my GTD system in Notion",
   "main": "./src/index.js",
   "scripts": {
-    "postinstall": "yarn add-env",
+    "postinstall": "yarn add-env && yarn link",
     "add-env": "cp -n config.json.example config.json || true",
-    "test": "No test command"
+    "test": "No test command",
+    "link": "alfred-link",
+    "preuninstall": "alfred-unlink"
   },
   "author": "Alejandro Tunaroza",
   "license": "MIT",
@@ -14,5 +16,8 @@
   "dependencies": {
     "@notionhq/client": "^2.1.1",
     "alfy": "^1.0.0"
+  },
+  "devDependencies": {
+    "alfred-link": "^0.3.1"
   }
 }
