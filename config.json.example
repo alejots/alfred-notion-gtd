@@ -1,4 +1,8 @@
 {
   "token": "",
-  "database_id": ""
+  "database_id": "",
+  "harvestToken": "",
+  "harvestAccountId": "",
+  "harvestProjectId": "",
+  "harvestTaskId": ""
 }
