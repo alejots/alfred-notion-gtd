@@ -9,7 +9,44 @@
 	<key>connections</key>
 	<dict>
 		<key>3856F499-EE3A-43C0-9092-AC674E798FE8</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>50898DDE-4B8C-4792-B029-C56C94D4FB26</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>50898DDE-4B8C-4792-B029-C56C94D4FB26</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>79871859-F0AE-48D8-B711-3B47A03F9B90</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<array>
 			<dict>
@@ -430,6 +467,55 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>chrome gmail.com --profile-directory=Default</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>50898DDE-4B8C-4792-B029-C56C94D4FB26</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>chrome https://github.com/notifications?query=is%3Aunread --profile-directory=Default</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>79871859-F0AE-48D8-B711-3B47A03F9B90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/System/Applications/Calendar.app</string>
+					<string>/Applications/Notion.app</string>
+					<string>/Applications/Slack.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -447,7 +533,29 @@
 			<key>xpos</key>
 			<real>255</real>
 			<key>ypos</key>
-			<real>710</real>
+			<real>705</real>
+		</dict>
+		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
+		<dict>
+			<key>note</key>
+			<string>Open:
+- Calendar
+- Notion</string>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>705</real>
+		</dict>
+		<key>50898DDE-4B8C-4792-B029-C56C94D4FB26</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Open gmail on Default profile using the Terminal</string>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>705</real>
 		</dict>
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<dict>
@@ -462,6 +570,17 @@
 			<real>380</real>
 			<key>ypos</key>
 			<real>175</real>
+		</dict>
+		<key>79871859-F0AE-48D8-B711-3B47A03F9B90</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Open Github Notifications on Default profile using the Terminal</string>
+			<key>xpos</key>
+			<real>780</real>
+			<key>ypos</key>
+			<real>705</real>
 		</dict>
 		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
 		<dict>
