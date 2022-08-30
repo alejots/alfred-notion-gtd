@@ -1,6 +1,6 @@
 import alfy from "alfy";
 
-import { createPage } from "./helpers.js";
+import { createPage } from "./utils/helpers.js";
 
 createPage("✉️", {
   Tasks: {
