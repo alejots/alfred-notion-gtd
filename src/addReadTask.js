@@ -27,10 +27,4 @@ createPage("📖", {
       },
     ],
   },
-  Status: {
-    type: "select",
-    select: {
-      name: "Next Actions",
-    },
-  },
 });
