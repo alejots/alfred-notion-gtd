@@ -1,6 +1,6 @@
 import alfy from "alfy";
 
-import { createPage } from "./utils/helpers.js";
+import { createPage, getUrl } from "./utils/helpers.js";
 
 createPage("✉️", {
   Tasks: {
@@ -8,6 +8,13 @@ createPage("✉️", {
       {
         text: {
           content: alfy.input,
+          ...(getUrl(alfy.input)
+            ? {
+                link: {
+                  url: getUrl(alfy.input) ?? "",
+                },
+              }
+            : {}),
         },
       },
     ],
