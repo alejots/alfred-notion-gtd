@@ -2,7 +2,7 @@ import alfy from "alfy";
 
 import { createPage, getUrl } from "./utils/helpers.js";
 
-createPage("✉️", {
+createPage("🤖", {
   Tasks: {
     title: [
       {
