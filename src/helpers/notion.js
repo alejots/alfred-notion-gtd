@@ -1,9 +1,15 @@
 import { Client } from "@notionhq/client";
+const { notionAccessToken, notionDatabaseId } = process.env;
 
-import config from "../../config.json" assert { type: "json" };
+import env from "../../env.json" assert { type: "json" };
+
+const databaseId =
+  notionDatabaseId !== "" ? notionDatabaseId : env.notionDatabaseId;
+const accessToken =
+  notionAccessToken !== "" ? notionAccessToken : env.notionAccessToken;
 
 const notion = new Client({
-  auth: config.token,
+  auth: accessToken,
 });
 
 export const createPage = (emoji, properties) => {
@@ -15,12 +21,15 @@ export const createPage = (emoji, properties) => {
       },
       parent: {
         type: "database_id",
-        database_id: config.database_id,
+        database_id: databaseId,
       },
       properties,
     })
     .then(() => {
-      console.log(true);
+      console.log("success");
+    })
+    .catch(() => {
+      console.log("error");
     });
 };
 

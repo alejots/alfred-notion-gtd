@@ -106,5 +106,5 @@ dist
 .tern-port
 
 
-# Config file
-config.json
+# Env file
+env.json

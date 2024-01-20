@@ -21,6 +21,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4025B5D3-470D-4E72-98D1-36C74952F14C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
 		<array>
 			<dict>
@@ -51,17 +77,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>CCD83C18-8025-411D-BAED-E83C510DCC32</string>
+				<string>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -70,98 +86,17 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6DAC9CC6-6397-445A-BF03-8B198B92179F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>408A71AC-4ED7-478C-B77D-B0BA97216EE8</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F858B888-8A2D-4A74-844A-D84A1B502E20</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
+		<array/>
 		<key>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CCD83C18-8025-411D-BAED-E83C510DCC32</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>BE74533B-8CAE-4614-AB64-7DC7C637F257</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
+		<key>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</key>
+		<array/>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BE74533B-8CAE-4614-AB64-7DC7C637F257</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>CCD83C18-8025-411D-BAED-E83C510DCC32</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -174,17 +109,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6DAC9CC6-6397-445A-BF03-8B198B92179F</string>
+				<string>4025B5D3-470D-4E72-98D1-36C74952F14C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -204,40 +129,6 @@
 	<string>GTD</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>soundname</key>
-				<string>Blow</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -262,55 +153,20 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/addTask.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>gg</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>6DAC9CC6-6397-445A-BF03-8B198B92179F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{query}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string>created</string>
-						<key>outputlabel</key>
-						<string></string>
-						<key>uid</key>
-						<string>408A71AC-4ED7-478C-B77D-B0BA97216EE8</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
+			<string>4025B5D3-470D-4E72-98D1-36C74952F14C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -322,7 +178,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/addReadTask.js "$1"</string>
+				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node  ./src/index.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -333,7 +189,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>CCD83C18-8025-411D-BAED-E83C510DCC32</string>
+			<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -361,17 +217,71 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>soundname</key>
-				<string>Tink</string>
-				<key>systemsound</key>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>ggr</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ggn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node  ./src/index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Hello</string>
+				<key>title</key>
+				<string>New version of the task</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>F858B888-8A2D-4A74-844A-D84A1B502E20</string>
+			<string>724DABF6-9D03-4DC4-A370-74B76B38A7BB</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -405,50 +315,6 @@
 			<string>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/startHarvest.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>BE74533B-8CAE-4614-AB64-7DC7C637F257</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ggs</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Start work day</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C4F540FE-0011-4851-A952-634F30721756</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -516,24 +382,52 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ggs</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Start work day</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C4F540FE-0011-4851-A952-634F30721756</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>1A88B6C8-7358-4D65-BA1B-3B18BF17E7A4</key>
-		<dict>
-			<key>xpos</key>
-			<real>385</real>
-			<key>ypos</key>
-			<real>15</real>
-		</dict>
 		<key>3856F499-EE3A-43C0-9092-AC674E798FE8</key>
 		<dict>
 			<key>xpos</key>
 			<real>255</real>
 			<key>ypos</key>
 			<real>705</real>
+		</dict>
+		<key>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>4025B5D3-470D-4E72-98D1-36C74952F14C</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>210</real>
 		</dict>
 		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
 		<dict>
@@ -560,16 +454,16 @@
 		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
 		<dict>
 			<key>xpos</key>
-			<real>175</real>
+			<real>60</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>320</real>
 		</dict>
-		<key>6DAC9CC6-6397-445A-BF03-8B198B92179F</key>
+		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
 		<dict>
 			<key>xpos</key>
-			<real>380</real>
+			<real>440</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>495</real>
 		</dict>
 		<key>79871859-F0AE-48D8-B711-3B47A03F9B90</key>
 		<dict>
@@ -582,65 +476,68 @@
 			<key>ypos</key>
 			<real>705</real>
 		</dict>
-		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
-		<dict>
-			<key>xpos</key>
-			<real>670</real>
-			<key>ypos</key>
-			<real>245</real>
-		</dict>
 		<key>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</key>
 		<dict>
 			<key>xpos</key>
-			<real>175</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>505</real>
 		</dict>
-		<key>BE74533B-8CAE-4614-AB64-7DC7C637F257</key>
+		<key>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</key>
 		<dict>
 			<key>xpos</key>
-			<real>255</real>
+			<real>515</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>255</real>
 		</dict>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>590</real>
-		</dict>
-		<key>CCD83C18-8025-411D-BAED-E83C510DCC32</key>
-		<dict>
-			<key>xpos</key>
-			<real>380</real>
-			<key>ypos</key>
-			<real>310</real>
-		</dict>
-		<key>DFB73194-135C-4D1D-B987-5920ACC900BD</key>
-		<dict>
-			<key>xpos</key>
-			<real>840</real>
-			<key>ypos</key>
-			<real>125</real>
+			<real>705</real>
 		</dict>
 		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
 		<dict>
 			<key>xpos</key>
-			<real>175</real>
+			<real>60</real>
 			<key>ypos</key>
 			<real>175</real>
-		</dict>
-		<key>F858B888-8A2D-4A74-844A-D84A1B502E20</key>
-		<dict>
-			<key>xpos</key>
-			<real>840</real>
-			<key>ypos</key>
-			<real>315</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Database ID</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>To get the ID of the page, locate the 32-character string at the end of the page’s URL. More: To get the ID of the page, locate the 32-character string at the end of the page’s URL. (See more: https://developers.notion.com/docs/create-a-notion-integration#environment-variables)</string>
+			<key>label</key>
+			<string>Database Id</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>notionDatabaseId</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>notionAccessToken</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>notionAccessToken</string>
+	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
