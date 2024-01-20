@@ -244,7 +244,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/addTask.js "$1"</string>
+				<string>./node_modules/.bin/run-node --trace-warnings  ./src/addTask.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -382,6 +382,21 @@
 			<string>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>F0A668E7-43F3-474C-A242-9EEC2A2291D8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -578,6 +593,13 @@
 			<key>ypos</key>
 			<real>175</real>
 		</dict>
+		<key>F0A668E7-43F3-474C-A242-9EEC2A2291D8</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>505</real>
+		</dict>
 		<key>F858B888-8A2D-4A74-844A-D84A1B502E20</key>
 		<dict>
 			<key>xpos</key>
@@ -607,13 +629,13 @@
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>database_id</string>
+			<string>databaseId</string>
 		</dict>
 	</array>
 	<key>variables</key>
 	<dict>
-		<key>test</key>
-		<string>Hello Alfred!</string>
+		<key>notionAccessToken</key>
+		<string></string>
 	</dict>
 	<key>version</key>
 	<string></string>
