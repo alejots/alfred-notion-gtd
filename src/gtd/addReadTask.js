@@ -1,21 +1,12 @@
-import alfy from "alfy";
-
 import { createPage, getUrl } from "../helpers/notion.js";
 
-export const addReadTask = () => {
+export const addReadTask = (input) => {
   createPage("📖", {
     Tasks: {
       title: [
         {
           text: {
-            content: `Read: ${alfy.input}`,
-            ...(getUrl(alfy.input)
-              ? {
-                  link: {
-                    url: getUrl(alfy.input) ?? "",
-                  },
-                }
-              : {}),
+            content: `Read: ${input}`,
           },
         },
       ],
@@ -27,6 +18,10 @@ export const addReadTask = () => {
           name: "Read/Review",
         },
       ],
+    },
+    URL: {
+      type: "url",
+      url: getUrl(input) ?? "",
     },
   });
 };

@@ -7,16 +7,13 @@ export const addTask = (input) => {
         {
           text: {
             content: input,
-            ...(getUrl(input)
-              ? {
-                  link: {
-                    url: getUrl(input) ?? "",
-                  },
-                }
-              : {}),
           },
         },
       ],
+    },
+    URL: {
+      type: "url",
+      url: getUrl(input) ?? "",
     },
   });
 };
