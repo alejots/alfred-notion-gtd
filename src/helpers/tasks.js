@@ -1,7 +1,9 @@
 import { createPage } from "./notion.js";
-import { getUrl } from "./urls.js";
+import { getUrlObject } from "./urls.js";
 
 export const addTask = (input, openNotion) => {
+  const urlObject = getUrlObject(input);
+
   createPage(
     "🤖",
     {
@@ -14,20 +16,15 @@ export const addTask = (input, openNotion) => {
           },
         ],
       },
-      ...(getUrl(input)
-        ? {
-            URL: {
-              type: "url",
-              url: getUrl(input) ?? "",
-            },
-          }
-        : {}),
+      ...urlObject,
     },
     openNotion
   );
 };
 
 export const addReadTask = (input, openNotion) => {
+  const urlObject = getUrlObject(input);
+
   createPage(
     "📖",
     {
@@ -48,14 +45,7 @@ export const addReadTask = (input, openNotion) => {
           },
         ],
       },
-      ...(getUrl(input)
-        ? {
-            URL: {
-              type: "url",
-              url: getUrl(input) ?? "",
-            },
-          }
-        : {}),
+      ...urlObject,
     },
     openNotion
   );
