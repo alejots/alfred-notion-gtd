@@ -30,8 +30,9 @@ export const createPage = (emoji, properties, openNotion = "0") => {
       if (openNotion === "1") {
         await open(result.url);
       }
+      console.log("success;"); // Add ; as workaround to be able to assign to variables in alfred using Split Arg
     })
     .catch(() => {
-      console.log("error");
+      console.log("error;");
     });
 };
