@@ -587,7 +587,34 @@
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Database ID</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>To get the ID of the page, locate the 32-character string at the end of the page’s URL. More: To get the ID of the page, locate the 32-character string at the end of the page’s URL. (See more: https://developers.notion.com/docs/create-a-notion-integration#environment-variables)</string>
+			<key>label</key>
+			<string>Database Id</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>database_id</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>test</key>
+		<string>Hello Alfred!</string>
+	</dict>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
