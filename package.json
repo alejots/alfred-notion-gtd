@@ -17,7 +17,8 @@
   "type": "module",
   "dependencies": {
     "@notionhq/client": "^2.1.1",
-    "alfy": "^1.0.0"
+    "alfy": "^1.0.0",
+    "open": "^10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
