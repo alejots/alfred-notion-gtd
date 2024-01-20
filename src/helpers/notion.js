@@ -1,5 +1,6 @@
 import { Client } from "@notionhq/client";
 const { notionAccessToken, notionDatabaseId } = process.env;
+import open from "open";
 
 import env from "../../env.json" assert { type: "json" };
 
@@ -12,7 +13,7 @@ const notion = new Client({
   auth: accessToken,
 });
 
-export const createPage = (emoji, properties) => {
+export const createPage = (emoji, properties, openNotion = "0") => {
   notion.pages
     .create({
       icon: {
@@ -25,18 +26,12 @@ export const createPage = (emoji, properties) => {
       },
       properties,
     })
-    .then(() => {
-      console.log("success");
+    .then(async (result) => {
+      if (openNotion === "1") {
+        await open(result.url);
+      }
     })
     .catch(() => {
       console.log("error");
     });
-};
-
-// Function that gets the first url from string and returns it
-export const getUrl = (string) => {
-  const url = string.match(
-    /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)/g
-  );
-  return url ? url[0] : null;
 };

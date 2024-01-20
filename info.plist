@@ -21,32 +21,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4025B5D3-470D-4E72-98D1-36C74952F14C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
 		<array>
 			<dict>
@@ -73,11 +47,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
+		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</string>
+				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -86,30 +60,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
-		<array/>
-		<key>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</key>
-		<array/>
 		<key>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69B72B6E-B8EB-48C0-B337-863307486596</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4025B5D3-470D-4E72-98D1-36C74952F14C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -132,43 +100,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>gg</string>
-				<key>subtext</key>
-				<string>Add GTD task to the system</string>
-				<key>text</key>
-				<string>GTD - Add task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>E7B6951B-3BCC-460F-B415-F2233FA6D77C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
 				<string>{query}</string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>command</key>
-					<string>gg</string>
-				</dict>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>4025B5D3-470D-4E72-98D1-36C74952F14C</string>
+			<string>69B72B6E-B8EB-48C0-B337-863307486596</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -178,7 +124,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node  ./src/index.js "$1"</string>
+				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node --trace-warnings ./src/router.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -196,47 +142,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>ggr</string>
-				<key>subtext</key>
-				<string>Add GTD Read/Review task to the system</string>
-				<key>text</key>
-				<string>GTD - Add Read/Review task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>62D6448C-026A-41FF-B32E-82CBAB63C6FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>command</key>
-					<string>ggr</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -250,7 +155,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>ggn</string>
+				<string>gg</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -262,15 +167,15 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node  ./src/index.js "$1"</string>
+				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node  ./src/list-options.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Hello</string>
+				<string>Start typing the new task</string>
 				<key>title</key>
-				<string>New version of the task</string>
+				<string>GTD - Add new task</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -282,39 +187,6 @@
 			<string>724DABF6-9D03-4DC4-A370-74B76B38A7BB</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>2</integer>
-				<key>argumenttext</key>
-				<string>🤖 </string>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>15</integer>
-				<key>hotmod</key>
-				<integer>1441792</integer>
-				<key>hotstring</key>
-				<string>R</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -415,20 +287,6 @@
 			<key>ypos</key>
 			<real>705</real>
 		</dict>
-		<key>3B085DA0-8CA3-4ADD-AF4E-4618BC325407</key>
-		<dict>
-			<key>xpos</key>
-			<real>275</real>
-			<key>ypos</key>
-			<real>345</real>
-		</dict>
-		<key>4025B5D3-470D-4E72-98D1-36C74952F14C</key>
-		<dict>
-			<key>xpos</key>
-			<real>275</real>
-			<key>ypos</key>
-			<real>210</real>
-		</dict>
 		<key>48D9ADC5-D355-4E48-BCA1-FD3BDA6C775A</key>
 		<dict>
 			<key>note</key>
@@ -451,19 +309,19 @@
 			<key>ypos</key>
 			<real>705</real>
 		</dict>
-		<key>62D6448C-026A-41FF-B32E-82CBAB63C6FE</key>
+		<key>69B72B6E-B8EB-48C0-B337-863307486596</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>630</real>
 			<key>ypos</key>
-			<real>320</real>
+			<real>255</real>
 		</dict>
 		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
 		<dict>
 			<key>xpos</key>
-			<real>440</real>
+			<real>240</real>
 			<key>ypos</key>
-			<real>495</real>
+			<real>255</real>
 		</dict>
 		<key>79871859-F0AE-48D8-B711-3B47A03F9B90</key>
 		<dict>
@@ -476,17 +334,10 @@
 			<key>ypos</key>
 			<real>705</real>
 		</dict>
-		<key>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>505</real>
-		</dict>
 		<key>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</key>
 		<dict>
 			<key>xpos</key>
-			<real>515</real>
+			<real>445</real>
 			<key>ypos</key>
 			<real>255</real>
 		</dict>
@@ -496,13 +347,6 @@
 			<real>30</real>
 			<key>ypos</key>
 			<real>705</real>
-		</dict>
-		<key>E7B6951B-3BCC-460F-B415-F2233FA6D77C</key>
-		<dict>
-			<key>xpos</key>
-			<real>60</real>
-			<key>ypos</key>
-			<real>175</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
