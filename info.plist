@@ -84,30 +84,7 @@
 			</dict>
 		</array>
 		<key>7AC12147-8F5A-496B-A60D-DB9A9664C00D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DFB73194-135C-4D1D-B987-5920ACC900BD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>408A71AC-4ED7-478C-B77D-B0BA97216EE8</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F858B888-8A2D-4A74-844A-D84A1B502E20</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</key>
 		<array>
 			<dict>
@@ -618,7 +595,7 @@
 				<key>placeholder</key>
 				<string>Database ID</string>
 				<key>required</key>
-				<true/>
+				<false/>
 				<key>trim</key>
 				<true/>
 			</dict>
@@ -629,7 +606,7 @@
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>databaseId</string>
+			<string>notionDatabaseId</string>
 		</dict>
 	</array>
 	<key>variables</key>
@@ -637,6 +614,10 @@
 		<key>notionAccessToken</key>
 		<string></string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>notionAccessToken</string>
+	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>

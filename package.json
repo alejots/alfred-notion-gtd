@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "postinstall": "yarn add-env && yarn link",
-    "add-env": "cp -n config.json.example config.json || true",
+    "add-env": "cp -n env.example.json env.json || true",
     "test": "No test command",
     "link": "alfred-link",
     "preuninstall": "alfred-unlink",
