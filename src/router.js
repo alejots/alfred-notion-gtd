@@ -9,7 +9,7 @@ export const router = (input, command) => {
     case "gtdAdd":
       addTask(input, openNotion);
       break;
-    case "ggr":
+    case "gtdAddRead":
       addReadTask(input, openNotion);
       break;
     default:
