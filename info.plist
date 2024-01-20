@@ -121,31 +121,8 @@
 				<false/>
 			</dict>
 		</array>
-		<key>BE74533B-8CAE-4614-AB64-7DC7C637F257</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7AC12147-8F5A-496B-A60D-DB9A9664C00D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BE74533B-8CAE-4614-AB64-7DC7C637F257</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
@@ -295,7 +272,7 @@
 						<key>matchmode</key>
 						<integer>5</integer>
 						<key>matchstring</key>
-						<string>created</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string></string>
 						<key>uid</key>
@@ -403,29 +380,6 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>87119F98-B77C-4FEF-B2FE-2D79DFDC8EC3</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/startHarvest.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>BE74533B-8CAE-4614-AB64-7DC7C637F257</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -595,13 +549,6 @@
 			<real>175</real>
 			<key>ypos</key>
 			<real>440</real>
-		</dict>
-		<key>BE74533B-8CAE-4614-AB64-7DC7C637F257</key>
-		<dict>
-			<key>xpos</key>
-			<real>255</real>
-			<key>ypos</key>
-			<real>590</real>
 		</dict>
 		<key>C4F540FE-0011-4851-A952-634F30721756</key>
 		<dict>
