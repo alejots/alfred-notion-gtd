@@ -26,7 +26,10 @@ export const createPage = (emoji, properties) => {
       properties,
     })
     .then(() => {
-      console.log(true);
+      console.log("success");
+    })
+    .catch(() => {
+      console.log("error");
     });
 };
 
