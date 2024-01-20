@@ -1,6 +1,6 @@
 import alfy from "alfy";
 
-import { createPage, getUrl } from "./utils/helpers.js";
+import { createPage, getUrl } from "./helpers/notion.js";
 
 createPage("🤖", {
   Tasks: {
