@@ -181,7 +181,7 @@
 				<key>queuedelayimmediatelyinitially</key>
 				<false/>
 				<key>queuedelaymode</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
@@ -193,7 +193,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 1.0.0 → 1.0.1. Run `npm install -g alfred-notion-gtd`</string>
+				<string></string>
 				<key>title</key>
 				<string>GTD - Add new task</string>
 				<key>type</key>
@@ -303,7 +303,7 @@
 				<key>keyword</key>
 				<string>ggf</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 1.0.0 → 1.0.1. Run `npm install -g alfred-notion-gtd`</string>
 				<key>text</key>
 				<string>Start a Reshop coding focus session</string>
 				<key>withspace</key>
