@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>0E6B80A1-C72B-4A81-9C3C-3FF8E322153E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E1A62DB-224E-41C4-B8A4-A71F3DBA1CF0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>359F9980-F061-49E6-BCE6-BE90AAB4726D</key>
 		<array>
 			<dict>
@@ -84,6 +97,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>773793F6-C008-4ACD-8952-93F548238589</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E1A62DB-224E-41C4-B8A4-A71F3DBA1CF0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9E1A62DB-224E-41C4-B8A4-A71F3DBA1CF0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</key>
 		<array>
 			<dict>
@@ -121,6 +160,90 @@
 	<string>GTD</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1441792</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0E6B80A1-C72B-4A81-9C3C-3FF8E322153E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>gtdAdd</string>
+					<key>openNotion</key>
+					<string>false</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9E1A62DB-224E-41C4-B8A4-A71F3DBA1CF0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>5</integer>
+				<key>hotmod</key>
+				<integer>1441792</integer>
+				<key>hotstring</key>
+				<string>G</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>773793F6-C008-4ACD-8952-93F548238589</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -427,6 +550,13 @@ end tell'</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0E6B80A1-C72B-4A81-9C3C-3FF8E322153E</key>
+		<dict>
+			<key>xpos</key>
+			<real>125</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
 		<key>2DDA6857-EA3A-4251-8CF0-4AB9BDE732DF</key>
 		<dict>
 			<key>xpos</key>
@@ -476,9 +606,16 @@ end tell'</string>
 		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>225</real>
 			<key>ypos</key>
 			<real>255</real>
+		</dict>
+		<key>773793F6-C008-4ACD-8952-93F548238589</key>
+		<dict>
+			<key>xpos</key>
+			<real>125</real>
+			<key>ypos</key>
+			<real>135</real>
 		</dict>
 		<key>79871859-F0AE-48D8-B711-3B47A03F9B90</key>
 		<dict>
@@ -490,6 +627,13 @@ end tell'</string>
 			<real>875</real>
 			<key>ypos</key>
 			<real>555</real>
+		</dict>
+		<key>9E1A62DB-224E-41C4-B8A4-A71F3DBA1CF0</key>
+		<dict>
+			<key>xpos</key>
+			<real>320</real>
+			<key>ypos</key>
+			<real>100</real>
 		</dict>
 		<key>A3E52E18-065A-4F43-8C1C-22DC77DB48F2</key>
 		<dict>
