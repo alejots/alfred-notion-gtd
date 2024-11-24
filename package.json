@@ -2,10 +2,13 @@
   "name": "alfred-notion-gtd",
   "version": "0.0.1",
   "description": "Alfred workflow to add tasks to my GTD system in Notion",
-  "createdBy": "Alejandro Tunaroza",
+  "author": {
+		"name": "Alejandro Tunaroza",
+		"email": "alejandro.tunaroza@gmail.com"
+	},
   "main": "./src/index.js",
   "scripts": {
-    "postinstall": "yarn add-env && yarn link",
+    "postinstall": "yarn add-env",
     "add-env": "cp -n env.example.json env.json || true",
     "test": "No test command",
     "link": "alfred-link",
@@ -13,12 +16,12 @@
     "lint": "eslint --ext js . --ignore-path .gitignore --max-warnings 0",
     "format:check": "npx prettier --check ."
   },
-  "author": "Alejandro Tunaroza",
+  
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@notionhq/client": "^2.1.1",
-    "alfy": "^1.0.0",
+    "@notionhq/client": "^2.2.15",
+    "alfy": "^2.1.0",
     "open": "^10.0.3"
   },
   "devDependencies": {
