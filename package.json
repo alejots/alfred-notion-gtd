@@ -1,7 +1,8 @@
 {
   "name": "alfred-notion-gtd",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Alfred workflow to add tasks to my GTD system in Notion",
+  "createdBy": "Alejandro Tunaroza",
   "main": "./src/index.js",
   "scripts": {
     "postinstall": "yarn add-env && yarn link",
