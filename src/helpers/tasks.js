@@ -16,6 +16,17 @@ export const addTask = (input, openNotion) => {
           },
         ],
       },
+      Context: {
+        type: "multi_select",
+        multi_select: [
+          {
+            name: "🥇Personal",
+          },
+          {
+            name: "💻 Personal Laptop",
+          },
+        ],
+      },
       ...urlObject,
     },
     openNotion
