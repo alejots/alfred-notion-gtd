@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B5EF98D0-44A2-480B-8724-899959E42C4D</string>
+				<string>7237CEF5-9AA2-4125-9409-DD05D793FA9F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -275,29 +275,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node --trace-warnings ./src/router.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -343,6 +320,29 @@
 			<string>724DABF6-9D03-4DC4-A370-74B76B38A7BB</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>NODE_OPTIONS="--no-deprecation" ./node_modules/.bin/run-node --trace-warnings ./src/router.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AD345F4A-0CA7-426A-B381-EFA7AAEB7946</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -455,23 +455,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputmode</key>
-				<integer>-1</integer>
-				<key>outputmode</key>
-				<integer>0</integer>
-				<key>shortcut</key>
-				<string>Activar work mode</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.runshortcut</string>
-			<key>uid</key>
-			<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -511,6 +494,23 @@ end tell'</string>
 			<string>E486185B-CAFE-40CB-B894-A7DD7B289B08</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>-1</integer>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>shortcut</key>
+				<string>Activar work mode</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>3856F499-EE3A-43C0-9092-AC674E798FE8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -564,23 +564,41 @@ end tell'</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>org.mozilla.firefox</string>
-				<key>skipqueryencode</key>
+				<key>concurrently</key>
 				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/usr/bin/env zsh
+
+PERSONAL_NAME="Alejandro’s MacBook Pro (2)"
+
+NOTION_APP_URL="https://www.notion.so/GTD-Dashboard-dd3bcca165304564b776f051dbfabad4"
+
+COMPUTER_NAME="$(scutil --get ComputerName 2&gt;/dev/null)"
+
+echo "$COMPUTER_NAME"
+
+if [[ "$COMPUTER_NAME" == "$PERSONAL_NAME" ]]; then
+  # Personal Mac → open in Notion app
+  open -a "Notion" "$NOTION_APP_URL"
+else [[ "$COMPUTER_NAME" == "$WORK_NAME" ]]
+  # Work Mac → open in Firefox
+  open -a "Firefox" "$NOTION_WEB_URL"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>url</key>
-				<string>https://www.notion.so/GTD-Dashboard-dd3bcca165304564b776f051dbfabad4?pvs=9</string>
+				<key>type</key>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>B5EF98D0-44A2-480B-8724-899959E42C4D</string>
+			<string>7237CEF5-9AA2-4125-9409-DD05D793FA9F</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -665,6 +683,13 @@ end tell'</string>
 			<key>ypos</key>
 			<real>275</real>
 		</dict>
+		<key>7237CEF5-9AA2-4125-9409-DD05D793FA9F</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>715</real>
+		</dict>
 		<key>724DABF6-9D03-4DC4-A370-74B76B38A7BB</key>
 		<dict>
 			<key>xpos</key>
@@ -710,13 +735,6 @@ end tell'</string>
 			<real>445</real>
 			<key>ypos</key>
 			<real>255</real>
-		</dict>
-		<key>B5EF98D0-44A2-480B-8724-899959E42C4D</key>
-		<dict>
-			<key>xpos</key>
-			<real>420</real>
-			<key>ypos</key>
-			<real>715</real>
 		</dict>
 		<key>BD183A86-B673-4786-8887-5601389526E3</key>
 		<dict>
